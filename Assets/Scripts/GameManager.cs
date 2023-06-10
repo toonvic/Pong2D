@@ -18,6 +18,9 @@ public class GameManager : MonoBehaviour
     public GameObject PlayerOneScoreText;
     public GameObject PlayerTwoScoreText;
 
+    [Header("PauseMenu")]
+    public GameObject PauseMenu;
+
     private int PlayerOneScore;
     private int PlayerTwoScore;
 
